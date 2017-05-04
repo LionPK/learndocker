@@ -195,7 +195,7 @@ body {font-family: "Lato", sans-serif}
 
   <div class="w3-content w3-container w3-padding-64" id="docker_d">
     <h3>ขอขอบคุณแหล่งข้อมูลและแหล่งรูปภาพประกอบการนำเสนอจาก</h3>
-    <p><a href="https://logz.io/wp-content/uploads/2016/01/docker-facebook.png" target="_blank">https://logz.io/wp-content/uploads/2016/01/docker-facebook.png</a><br>
+    <p><a href="https://logz.io/wp-content/uploads/2016/01/docker-facebook.png" target="_blank">https://goo.gl/JnjTpg</a><br>
        <a href="https://www.docker.com/sites/default/files/Docker_Survey_%232_v04.0-01.png" target="_blank">https://goo.gl/tlqm0l</a><br>
        <a href="https://goo.gl/vHreTs" target="_blank">https://goo.gl/vHreTs</a><br>
        <a href="https://www.freepik.com" target="_blank">https://www.freepik.com</a>
