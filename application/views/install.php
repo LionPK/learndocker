@@ -93,9 +93,9 @@ body, html {
 <!-- Container about-->
 <div class="w3-content w3-container w3-padding-64" id="windows">
   <h3 class="w3-center">การติดตั้งบนระบบปฏิบัติการ Windows</h3>
-    <center><div class="responsive-embed">  
+    <div class="responsive-embed center">  
           <iframe src="https://www.youtube.com/embed/cM4QReXMIpA" frameborder="0" allowfullscreen></iframe>  
-    </div></center>
+    </div>
 
   <p>1. Download Docker Tool BOX Docker Tool BOX คือ ชุดโปรแกรมสำหรับใช้งาน Docker Desktop ของเราใน Docker Tool BOX จะประกอบไปด้วย</p>
      <dd>- Docker client เป็นตัว Docker สำหรับสร้าง images และ containers<br>
