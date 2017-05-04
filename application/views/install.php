@@ -48,7 +48,7 @@ body, html {
     
 .responsive-embed {
     position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-bottom: 10%; /* 16/9 ratio */
     padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
@@ -58,7 +58,7 @@ body, html {
 .responsive-embed embed {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 40;
     width: 60%;
     height: 60%;
 }
