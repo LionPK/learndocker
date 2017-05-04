@@ -161,7 +161,7 @@ body {font-family: "Lato", sans-serif}
         <i class="fa fa-envelope" style="width:30px"></i>Email address : อีเมลที่ใช้ในการสมัคร<br>
         <i class="fa fa-key" style="width:30px"> </i> Choose a password : รหัสผ่าน<br>
       </div>
-      <div class="w3-col m6 w3-display-container">
+      <div class="w3-container" style="padding:128px 16px">
         <img src="<?php echo base_url(); ?>assets/images/hub.png" alt="hub">
       </div>
     </div>
