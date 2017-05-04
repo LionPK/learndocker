@@ -88,19 +88,19 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <a href="index.php/Recommend/recommend" target="_blank"><img src="<?php echo base_url(); ?>assets/images/idea.png" alt="idea" class="w3-hover-opacity"></a>
-      <p class="w3-large">ทำความรู้จักกับ Docker</p>
+      <br><p class="w3-large">ทำความรู้จักกับ Docker</p>
     </div>
     <div class="w3-quarter">
       <a href="index.php/Diction/diction" target="_blank"><img src="<?php echo base_url(); ?>assets/images/diction.png" alt="dictionary" class="w3-hover-opacity"></a>
-      <p class="w3-large">เรียนรู้คำศัพท์</p>
+      <br><p class="w3-large">เรียนรู้คำศัพท์</p>
     </div>
     <div class="w3-quarter">
       <a href="index.php/Install/install" target="_blank"><img src="<?php echo base_url(); ?>assets/images/gear.png" alt="gear" class="w3-hover-opacity"></a>
-      <p class="w3-large">การติดตั้งและการตั้งค่า</p>
+      <br><p class="w3-large">การติดตั้งและการตั้งค่า</p>
     </div>
     <div class="w3-quarter">
       <a href="index.php/Build/build" target="_blank"><img src="<?php echo base_url(); ?>assets/images/use.png" alt="use" class="w3-hover-opacity"></a>
-      <p class="w3-large">การใช้งาน Docker</p>
+      <br><p class="w3-large">การใช้งาน Docker</p>
     </div>
   </div>
 </div>
