@@ -87,9 +87,8 @@ body {font-family: "Lato", sans-serif}
   <p class="w3-center w3-large">Key features of our company</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <a href="index.php/Recommend/recommend" target="_blank"><img src="<?php echo base_url(); ?>assets/images/idea.png" alt="idea" class="w3-hover-opacity"></a>
       <p class="w3-large">Responsive</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
     </div>
     <div class="w3-quarter">
       <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
