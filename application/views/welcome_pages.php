@@ -109,7 +109,7 @@ body {font-family: "Lato", sans-serif}
   <div class=" w3-blue " id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <h2 class="w3-jumbo w3-center">DOCKER</h2>
-      <p class="w3-opacity w3-center"><i>ส่วนนี้เป็นเเนื้อเรื่องเกี่ยวกับ Docker ของเว็ปอื่น ๆ</i></p><br>
+      <p class="w3-opacity w3-center"><i>ส่วนนี้เป็นเนื้อเรื่องเกี่ยวกับ Docker ของเว็ปอื่น ๆ</i></p><br>
 
       <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
@@ -196,7 +196,7 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-content w3-container w3-padding-64" id="docker_d">
     <h3>ขอขอบคุณแหล่งข้อมูลและแหล่งรูปภาพประกอบการนำเสนอจาก</h3>
     <p><a href="https://logz.io/wp-content/uploads/2016/01/docker-facebook.png" target="_blank">https://logz.io/wp-content/uploads/2016/01/docker-facebook.png</a><br>
-       <a href="https://www.docker.com/sites/default/files/Docker_Survey_%232_v04.0-01.png" target="_blank">https://www.docker.com/sites/default/files/Docker_Survey_%232_v04.0-01.png</a><br>
+       <a href="https://www.docker.com/sites/default/files/Docker_Survey_%232_v04.0-01.png" target="_blank">https://goo.gl/tlqm0l</a><br>
        <a href="https://goo.gl/vHreTs" target="_blank">https://goo.gl/vHreTs</a><br>
        <a href="https://www.freepik.com" target="_blank">https://www.freepik.com</a>
        </p>
