@@ -51,8 +51,8 @@ body {font-family: "Lato", sans-serif}
   <a href="#tour" class="w3-bar-item w3-button w3-padding-large">DOCKER</a>
   <a href="#hub" class="w3-bar-item w3-button w3-padding-large">DOCKER HUB</a>
   <a href="#team" class="w3-bar-item w3-button w3-padding-large">TEAM</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">QUIZ</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
+  <a href="https://goo.gl/HdK25n" class="w3-bar-item w3-button w3-padding-large">ONE QUIZ</a>
+  <a href="https://docker.com" class="w3-bar-item w3-button w3-padding-large">DOCKER OFFICE WEB</a>
 </div>
 
 <!-- Page content -->
