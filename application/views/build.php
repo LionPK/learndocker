@@ -56,7 +56,7 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#build" class="w3-bar-item w3-button w3-hide-small">BUILD CONTAINER</a>
-    <a href="/Docker/docker" class="w3-bar-item w3-button w3-hide-small">USE DOCKER</a>
+    <a href="/docker" class="w3-bar-item w3-button w3-hide-small">USE DOCKER</a>
   </div>
 
   <!-- Navbar on small screens -->
