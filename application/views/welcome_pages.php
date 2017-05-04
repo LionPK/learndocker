@@ -177,7 +177,6 @@ body {font-family: "Lato", sans-serif}
 
     <div class="w3-row w3-center"><br><br><br>
       <div class="w3-quarter">
-        <img src="<?php echo base_url(); ?>assets/images/singh0.jpg" style="width:45%" class="w3-circle w3-hover-opacity">
         <h3></h3>
         <p></p>
       </div>
