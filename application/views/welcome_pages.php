@@ -162,7 +162,7 @@ body {font-family: "Lato", sans-serif}
         <i class="fa fa-key" style="width:30px"> </i> Choose a password : รหัสผ่าน<br>
       </div>
       <div class="w3-col m6">
-        <img src="<?php echo base_url(); ?>assets/images/hub.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="hub">
+        <img src="<?php echo base_url(); ?>assets/images/hub.png" class="w3-round w3-image w3-opacity" alt="hub">
       </div>
     </div>
   </div>
