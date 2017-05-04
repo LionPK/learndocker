@@ -88,7 +88,7 @@ body {font-family: "Lato", sans-serif}
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <a href="index.php/Recommend/recommend" target="_blank"><img src="<?php echo base_url(); ?>assets/images/idea.png" alt="idea" class="w3-hover-opacity"></a>
-      <br><p class="w3-large">ทำความรู้จักกับ Docker</p>
+      <br><br><p class="w3-large">ทำความรู้จักกับ Docker</p>
     </div>
     <div class="w3-quarter">
       <a href="index.php/Diction/diction" target="_blank"><img src="<?php echo base_url(); ?>assets/images/diction.png" alt="dictionary" class="w3-hover-opacity"></a>
