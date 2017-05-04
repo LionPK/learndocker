@@ -45,6 +45,23 @@ body, html {
         background-attachment: scroll;
     }
 }
+    
+.responsive-embed {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+.responsive-embed iframe,
+.responsive-embed object,
+.responsive-embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 </style>
 <body>
 
@@ -76,7 +93,7 @@ body, html {
 <!-- Container about-->
 <div class="w3-content w3-container w3-padding-64" id="windows">
   <h3 class="w3-center">การติดตั้งบนระบบปฏิบัติการ Windows</h3>
-    <div class="w3-embed">  
+    <div class="responsive-embed">  
       <center>
           <iframe src="https://www.youtube.com/embed/cM4QReXMIpA" frameborder="0" allowfullscreen></iframe>
       </center>
