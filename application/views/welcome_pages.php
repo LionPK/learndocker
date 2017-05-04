@@ -82,7 +82,7 @@ body {font-family: "Lato", sans-serif}
   </div>
 
   <!-- Features Section of tutorial-->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:2000px" id="Tutorial">
+  <div class="w3-container" style="padding:128px 16px" id="Tutorial">
         <h1 class="w3-jumbo"><b>TUTORIAL</b></h1>
         <p>บทเรียนเหล่านี้ทางเราได้คัดสันมาเพื่อคุณ</p>
 
