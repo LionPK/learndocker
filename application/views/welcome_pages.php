@@ -83,57 +83,27 @@ body {font-family: "Lato", sans-serif}
 
   <!-- Features Section of tutorial-->
   <div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT THE COMPANY</h3>
-  <p class="w3-center w3-large">Key features of our company</p>
+  <h3 class="w3-center">TUTORIAL</h3>
+  <p class="w3-center w3-large">บทเรียนเหล่านี้ทางเราได้คัดสันมาเพื่อคุณ</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <a href="index.php/Recommend/recommend" target="_blank"><img src="<?php echo base_url(); ?>assets/images/idea.png" alt="idea" class="w3-hover-opacity"></a>
-      <p class="w3-large">Responsive</p>
+      <p class="w3-large">ทำความรู้จักกับ Docker</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <a href="index.php/Diction/diction" target="_blank"><img src="<?php echo base_url(); ?>assets/images/diction.png" alt="dictionary" class="w3-hover-opacity"></a>
+      <p class="w3-large">เรียนรู้คำศัพท์</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <a href="index.php/Install/install" target="_blank"><img src="<?php echo base_url(); ?>assets/images/gear.png" alt="gear" class="w3-hover-opacity"></a>
+      <p class="w3-large">การติดตั้งและการตั้งค่า</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Support</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <a href="index.php/Build/build" target="_blank"><img src="<?php echo base_url(); ?>assets/images/use.png" alt="use" class="w3-hover-opacity"></a>
+      <p class="w3-large">การใช้งาน Docker</p>
     </div>
   </div>
 </div>
-  
-  
-  <div class="w3-container" style="padding:128px 16px" id="Tutorial">
-        <h1 class="w3-jumbo"><b>TUTORIAL</b></h1>
-        <p>บทเรียนเหล่านี้ทางเราได้คัดสันมาเพื่อคุณ</p>
-
-        <div class="w3-row" style="margin-top:64px">
-          <div class="w3-col s3">
-            <a href="index.php/Recommend/recommend" target="_blank"><img src="<?php echo base_url(); ?>assets/images/idea.png" alt="idea" class="w3-hover-opacity"></a>
-            <p><br>ทำความรู้จักกับ Docker</p>
-          </div>
-          <div class="w3-col s3">
-            <a href="index.php/Diction/diction" target="_blank"><img src="<?php echo base_url(); ?>assets/images/diction.png" alt="dictionary" class="w3-hover-opacity"></a>
-            <p><br>เรียนรู้คำศัพท์</p>
-          </div>
-
-          <div class="w3-col s3">
-            <a href="index.php/Install/install" target="_blank"><img src="<?php echo base_url(); ?>assets/images/gear.png" alt="gear" class="w3-hover-opacity"></a>
-            <p><br>การติดตั้งและการตั้งค่า</p>
-          </div>
-
-          <div class="w3-col s3">
-            <a href="index.php/Build/build" target="_blank"><img src="<?php echo base_url(); ?>assets/images/use.png" alt="use" class="w3-hover-opacity"></a>
-            <p><br>การใช้งาน Docker</p>
-          </div>
-      </div>
-  </div>
 
   <!-- The Tour Section -->
   <div class=" w3-blue " id="tour">
