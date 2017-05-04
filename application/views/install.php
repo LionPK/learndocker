@@ -15,6 +15,23 @@ body, html {
     line-height: 1.8;
 }
 
+.responsive-embed {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+.responsive-embed iframe,
+.responsive-embed object,
+.responsive-embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
@@ -45,23 +62,7 @@ body, html {
         background-attachment: scroll;
     }
 }
-    
-.responsive-embed {
-    position: relative;
-    padding-bottom: 10%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-}
-.responsive-embed iframe,
-.responsive-embed object,
-.responsive-embed embed {
-    position: absolute;
-    top: 0;
-    left: 40;
-    width: 60%;
-    height: 60%;
-}
+
 </style>
 <body>
 
@@ -94,7 +95,7 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="windows">
   <h3 class="w3-center">การติดตั้งบนระบบปฏิบัติการ Windows</h3>
 
-          <iframe src="https://www.youtube.com/embed/cM4QReXMIpA" class="responsive-embed center" frameborder="0" allowfullscreen></iframe>  
+          <center><iframe src="https://www.youtube.com/embed/cM4QReXMIpA" class="responsive-embed center" frameborder="0" allowfullscreen></iframe></center>  
 
   <p>1. Download Docker Tool BOX Docker Tool BOX คือ ชุดโปรแกรมสำหรับใช้งาน Docker Desktop ของเราใน Docker Tool BOX จะประกอบไปด้วย</p>
      <dd>- Docker client เป็นตัว Docker สำหรับสร้าง images และ containers<br>
