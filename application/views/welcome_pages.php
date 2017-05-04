@@ -82,7 +82,7 @@ body {font-family: "Lato", sans-serif}
   </div>
 
   <!-- Features Section of tutorial-->
-  <div class="w3-container" style="padding:128px 16px" id="about">
+  <div class="w3-container" style="padding:128px 16px" id="Tutorial">
   <h3 class="w3-center">TUTORIAL</h3>
   <p class="w3-center w3-large">บทเรียนเหล่านี้ทางเราได้คัดสันมาเพื่อคุณ</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
@@ -161,7 +161,7 @@ body {font-family: "Lato", sans-serif}
         <i class="fa fa-envelope" style="width:30px"></i>Email address : อีเมลที่ใช้ในการสมัคร<br>
         <i class="fa fa-key" style="width:30px"> </i> Choose a password : รหัสผ่าน<br>
       </div>
-      <div class="w3-col m6 w3-quarter" style="padding:128px 16px">
+      <div class="w3-col m6">
         <img src="<?php echo base_url(); ?>assets/images/hub.png" alt="hub">
       </div>
     </div>
