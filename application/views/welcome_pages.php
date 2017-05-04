@@ -92,15 +92,15 @@ body {font-family: "Lato", sans-serif}
     </div>
     <div class="w3-quarter">
       <a href="index.php/Diction/diction" target="_blank"><img src="<?php echo base_url(); ?>assets/images/diction.png" alt="dictionary" class="w3-hover-opacity"></a>
-      <br><p class="w3-large">เรียนรู้คำศัพท์</p>
+      <br><br><p class="w3-large">เรียนรู้คำศัพท์</p>
     </div>
     <div class="w3-quarter">
       <a href="index.php/Install/install" target="_blank"><img src="<?php echo base_url(); ?>assets/images/gear.png" alt="gear" class="w3-hover-opacity"></a>
-      <br><p class="w3-large">การติดตั้งและการตั้งค่า</p>
+      <br><br><p class="w3-large">การติดตั้งและการตั้งค่า</p>
     </div>
     <div class="w3-quarter">
       <a href="index.php/Build/build" target="_blank"><img src="<?php echo base_url(); ?>assets/images/use.png" alt="use" class="w3-hover-opacity"></a>
-      <br><p class="w3-large">การใช้งาน Docker</p>
+      <br><br><p class="w3-large">การใช้งาน Docker</p>
     </div>
   </div>
 </div>
@@ -161,7 +161,7 @@ body {font-family: "Lato", sans-serif}
         <i class="fa fa-envelope" style="width:30px"></i>Email address : อีเมลที่ใช้ในการสมัคร<br>
         <i class="fa fa-key" style="width:30px"> </i> Choose a password : รหัสผ่าน<br>
       </div>
-      <div class="w3-col m6">
+      <div class="w3-col m6 w3-display-container">
         <img src="<?php echo base_url(); ?>assets/images/hub.png" alt="hub">
       </div>
     </div>
