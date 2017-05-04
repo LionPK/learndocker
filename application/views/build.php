@@ -77,28 +77,28 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="build">
   <p>ตัวอย่างการทดลอง build container สำหรับ run Go กัน โดยที่ผมจะใช้ net/http เพื่อทำ server สำหรับ response "Hello, world!<br>1. Pull image <br>จัดการ pull image สำหรับ Go ด้วยคำสั่ง   </p>
 
-  <center><img src="<?php echo base_url(); ?>assets/images/d31.PNG" alt="คำสั่งจัดการ pull image" onclick="onClick(this)" class=" w3-hover-opacity"></center>
+  <center><img src="<?php echo base_url(); ?>assets/images/d31.PNG" alt="คำสั่งจัดการ pull image" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off"></center>
 
   <p>คำสั่งนี้จะดาวน์โหลด Image Linux ที่ติดตั้ง Go compiler เวอร์ชันล่าสุด สามารถดูเวอร์ชันอื่น ๆ ได้ที่ Docker Hub เรียกดูรายการ Image ทั้งหมดที่มีอยู่ในเครื่อง</p>
-  <center><img src="<?php echo base_url(); ?>assets/images/d32.PNG" alt="คำสั่งดาวน์โหลด Image" onclick="onClick(this)" class=" w3-hover-opacity"></center>
+  <center><img src="<?php echo base_url(); ?>assets/images/d32.PNG" alt="คำสั่งดาวน์โหลด Image" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off"></center>
 
   <p>2. สร้าง Go Project <br>สมมติตั้งชื่อ folder ว่า golang-docker ข้างในจะมีไฟล์อยู่ 2 ไฟล์ดังนี้ <br>- main.go</p>
-  <center><img src="<?php echo base_url(); ?>assets/images/d33.PNG" alt="ไฟล์ main.go" onclick="onClick(this)" class=" w3-hover-opacity"></center><br>
+  <center><img src="<?php echo base_url(); ?>assets/images/d33.PNG" alt="ไฟล์ main.go" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off"></center><br>
 
   <p>- Dockerfile</p>
-  <center><img src="<?php echo base_url(); ?>assets/images/d34.PNG" alt="ไฟล์ dockerfile" onclick="onClick(this)" class=" w3-hover-opacity" ></center>
+  <center><img src="<?php echo base_url(); ?>assets/images/d34.PNG" alt="ไฟล์ dockerfile" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off" ></center>
 
   <p>คำสั่ง FROM golang:latest คือให้ใช้งาน image golang ที่มี tag เวอร์ชันว่า Latest และคำสั่ง RUN สำหรับใช้ run Linux command ที่ตามหลังนั่นเองครับ</p>
   <p>3. Deploy Container<br>เราต้องทำการ Deploy Container จาก Project เพื่อให้เป็น Container ของเราเอง โดยใช้คำสั่ง</p>
-  <center><img src="<?php echo base_url(); ?>assets/images/d35.PNG" alt="คำสั่ง Deploy Container" onclick="onClick(this)" class=" w3-hover-opacity" ></center>
+  <center><img src="<?php echo base_url(); ?>assets/images/d35.PNG" alt="คำสั่ง Deploy Container" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off" ></center>
 
   <p>ด้วยคำสั่งนี้จะทำให้ Docker เข้าไปอ่านไฟล์ Dockerfile และทำงานตามคำสั่งที่อยู่ข้างใน จากนั้นจะทำการสร้าง Container ขึ้นมาชื่อว่า golang-docker ตามในคำสั่งด้านบน ถ้าเราเรียกดู image ก็จะเห็นว่ามีรายการ image ที่เราสร้างไว้เมื่อสักครู่มาแล้ว</p>
-  <center><img src="<?php echo base_url(); ?>assets/images/d36.PNG" alt="คำสั่งเข้าไปอ่านไฟล์" onclick="onClick(this)" class=" w3-hover-opacity" ></center><br>
+  <center><img src="<?php echo base_url(); ?>assets/images/d36.PNG" alt="คำสั่งเข้าไปอ่านไฟล์" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off" ></center><br>
 
-  <center><img src="<?php echo base_url(); ?>assets/images/d37.PNG" alt="ตัวอย่างผลลัพ" onclick="onClick(this)" class=" w3-hover-opacity" ></center>
+  <center><img src="<?php echo base_url(); ?>assets/images/d37.PNG" alt="ตัวอย่างผลลัพ" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off" ></center>
 
   <p>4. Run<br>สุดท้ายเราจะสั่ง run container ที่เราสร้างขึ้นเมื่อสักครู่ด้วยคำสั่ง</p>
-  <center><img src="<?php echo base_url(); ?>assets/images/d38.PNG" alt="run container" onclick="onClick(this)" class=" w3-hover-opacity" ></center>
+  <center><img src="<?php echo base_url(); ?>assets/images/d38.PNG" alt="run container" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off" ></center>
   <p>คำสั่งนี้จะสั่งรัน golang-docker และ map port 8080 ของ host เข้ากับ 8080 ของ container</p><br>
 
     <p>ขอขอบคุณแหล่งข้อมูลจาก <a href="https://goo.gl/ewicOZ" target="_blank">https://goo.gl/ewicOZ</a></p>
