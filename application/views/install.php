@@ -76,6 +76,8 @@ body, html {
 <!-- Container about-->
 <div class="w3-content w3-container w3-padding-64" id="windows">
   <h3 class="w3-center">การติดตั้งบนระบบปฏิบัติการ Windows</h3>
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/cM4QReXMIpA" frameborder="0" allowfullscreen></iframe>
+</center>
   <p>1. Download Docker Tool BOX Docker Tool BOX คือ ชุดโปรแกรมสำหรับใช้งาน Docker Desktop ของเราใน Docker Tool BOX จะประกอบไปด้วย</p>
      <dd>- Docker client เป็นตัว Docker สำหรับสร้าง images และ containers<br>
      <dd>- Docker Machine เป็นตัว Linux ที่รันทำงานเบื้องหลังเพื่อให้ Docker ทำงานได้<br>
@@ -152,9 +154,6 @@ body, html {
   - User : docker <br>- Pass: tcuser<br>
   - Login เสร็จแล้วจะขึ้นข้อความดังรูป แสดงว่าเรา terminal docker เป็นที่เรียบร้อยแล้ว</p>
   <center><img src="<?php echo base_url(); ?>assets/images/d30.PNG" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="การเข้าสู่ระบบสำเร็จ" width="500" height="333" onclick="onClick(this)" class="w3-hover-opacity"></center>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cM4QReXMIpA" frameborder="0" allowfullscreen></iframe>
-
 </div>
 
 
