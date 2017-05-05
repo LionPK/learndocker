@@ -126,7 +126,7 @@ body, html {
     <center><img src="<?php echo base_url(); ?>assets/images/d45.PNG"class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="การแสดงผล" width="500" height="333" onclick="onClick(this)" class="w3-hover-opacity"></center><br>
 
     
-    <div class="responsive-embed center">
+    <div class="responsive-embed">
        <iframe src="https://www.youtube.com/embed/5l5BmKa50fE" frameborder="0" allowfullscreen></iframe>
     </div><br>
     
