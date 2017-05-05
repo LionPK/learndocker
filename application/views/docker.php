@@ -15,6 +15,23 @@ body, html {
     line-height: 1.8;
 }
 
+.responsive-embed {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}    
+.responsive-embed iframe,
+.responsive-embed object,
+.responsive-embed embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
@@ -108,6 +125,11 @@ body, html {
     <p>5. แสดงผล<br>มาถึงขั้นตอนนี้ให้เอา #1 ที่ทดไว้ในตั้งแต่ขั้นตอนที่ 1 ออกมาใช้ครับ อย่างของผมจะเป็น 192.168.99.100 ก็ให้เอา IP นี้ไปเปิดบน Browser จะพบว่าสามารถเข้าเว็บได้แล้ว สาเหตทุี่เราเปิดเว็บ ได้เพราะว่า 192.168.99.100 คือ IP เครื่อง Linux ของเรา เมื่อเราเรียกผ่าน http จะเป็นการเรียกใช้งาน port 80 โดยอัตโนมัติจากนั้นเมื่อ Linux ได้รับข้อมูลว่ามีการเรียกใช้งาน port 80 เจ้า Docker ก็จะไป ตรวจสอบว่า port นี้ได้ผูกกับ Container ไหนไว้หรือไม่ซึ่งก็จะพบ Container hellomobydock ของเราที่ ผูก Port 80 ไว้จึงส่งต่อข้อมูลเข้าไปยัง Port 80 ของ Container ตัวนั้น ส่งผลให้ nginx ที่รออยู่ทำงาน และแสดงผลออกมาเป็น html นั้นเอง </p>
     <center><img src="<?php echo base_url(); ?>assets/images/d45.PNG"class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="การแสดงผล" width="500" height="333" onclick="onClick(this)" class="w3-hover-opacity"></center><br>
 
+    
+    <div class="responsive-embed center">
+       <iframe src="https://www.youtube.com/embed/5l5BmKa50fE" frameborder="0" allowfullscreen></iframe>
+    </div><br>
+    
     <center><a href="https://goo.gl/0zblGp" target="_blank"><button type="button" class="btn btn-success">QUIZ</button></a></center></br>
 
     <p>ขอขอบคุณแหล่งข้อมูลจาก <a href="https://www.jaynarol.com/understand-docker/" target="_blank">https://www.jaynarol.com/understand-docker/</a></p>
