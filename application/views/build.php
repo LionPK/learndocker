@@ -69,7 +69,7 @@ body, html {
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">การใช้งาน </span>Build <span class="w3-hide-small">Container</apan></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">การใช้งาน </span>Build <span class="w3-hide-small">Container</span></span>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="build">
   <p>ตัวอย่างการทดลอง build container สำหรับ run Go กัน โดยที่ผมจะใช้ net/http เพื่อทำ server สำหรับ response "Hello, world!<br>1. Pull image <br>จัดการ pull image สำหรับ Go ด้วยคำสั่ง   </p>
 
-  <center><img src="<?php echo base_url(); ?>assets/images/d31.PNG" alt="คำสั่งจัดการ pull image" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off"><br></center>
+  <center><img src="<?php echo base_url(); ?>assets/images/d31.PNG" alt="คำสั่งจัดการ pull image" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off"><br><br></center>
 
   <p>คำสั่งนี้จะดาวน์โหลด Image Linux ที่ติดตั้ง Go compiler เวอร์ชันล่าสุด สามารถดูเวอร์ชันอื่น ๆ ได้ที่ Docker Hub เรียกดูรายการ Image ทั้งหมดที่มีอยู่ในเครื่อง</p>
   <center><img src="<?php echo base_url(); ?>assets/images/d32.PNG" alt="คำสั่งดาวน์โหลด Image" onclick="onClick(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off"><br></center>
