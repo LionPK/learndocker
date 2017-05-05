@@ -93,7 +93,11 @@ body, html {
 
 <!-- Container about-->
 <div class="w3-content w3-container w3-padding-64" id="use">
-  
+
+    <div class="responsive-embed">
+       <iframe src="https://www.youtube.com/embed/5l5BmKa50fE" frameborder="0" allowfullscreen></iframe>
+    </div><br>
+    
 <p>1. เตรียมความพร้อม<br>เปิด “Docker Toolbox terminal” ขึ่นมาเราจะพบกับเจ้า MobyDock และรายละเอียดต่าง ๆ ได้แก่ ชื่อ Machine default และ IP 192.168.99.100 โดย IP ที่แสดงตอนนี้ให้เราทดเก็บไว้ในใจเป็น #1 ก่อน นะครับ (แตล่ะคนอาจได้ไม่เหมือนกัน) เพราะจะได้เอาไปใช้ในขั้นตอนหลัง</p>
   <center><img src="<?php echo base_url(); ?>assets/images/d39.PNG" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Docker Toolbox terminal" width="500" height="333" onclick="onClick(this)" class="w3-hover-opacity"></center>
   
@@ -124,12 +128,6 @@ body, html {
       
     <p>5. แสดงผล<br>มาถึงขั้นตอนนี้ให้เอา #1 ที่ทดไว้ในตั้งแต่ขั้นตอนที่ 1 ออกมาใช้ครับ อย่างของผมจะเป็น 192.168.99.100 ก็ให้เอา IP นี้ไปเปิดบน Browser จะพบว่าสามารถเข้าเว็บได้แล้ว สาเหตทุี่เราเปิดเว็บ ได้เพราะว่า 192.168.99.100 คือ IP เครื่อง Linux ของเรา เมื่อเราเรียกผ่าน http จะเป็นการเรียกใช้งาน port 80 โดยอัตโนมัติจากนั้นเมื่อ Linux ได้รับข้อมูลว่ามีการเรียกใช้งาน port 80 เจ้า Docker ก็จะไป ตรวจสอบว่า port นี้ได้ผูกกับ Container ไหนไว้หรือไม่ซึ่งก็จะพบ Container hellomobydock ของเราที่ ผูก Port 80 ไว้จึงส่งต่อข้อมูลเข้าไปยัง Port 80 ของ Container ตัวนั้น ส่งผลให้ nginx ที่รออยู่ทำงาน และแสดงผลออกมาเป็น html นั้นเอง </p>
     <center><img src="<?php echo base_url(); ?>assets/images/d45.PNG"class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="การแสดงผล" width="500" height="333" onclick="onClick(this)" class="w3-hover-opacity"></center><br>
-
-    
-    <div class="responsive-embed">
-       <iframe src="https://www.youtube.com/embed/5l5BmKa50fE" frameborder="0" allowfullscreen></iframe>
-    </div><br>
-    
     <center><a href="https://goo.gl/0zblGp" target="_blank"><button type="button" class="btn btn-success">QUIZ</button></a></center></br>
 
     <p>ขอขอบคุณแหล่งข้อมูลจาก <a href="https://www.jaynarol.com/understand-docker/" target="_blank">https://www.jaynarol.com/understand-docker/</a></p>
