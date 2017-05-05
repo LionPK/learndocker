@@ -95,7 +95,9 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="use">
 
     <div class="responsive-embed">
-       <iframe src="https://www.youtube.com/embed/5l5BmKa50fE" frameborder="0" allowfullscreen></iframe>
+       <iframe src="https://www.youtube.com/embed/5l5BmKa50fE" frameborder="0" allowfullscreen></iframe><br>
+        
+       <iframe src="https://www.youtube.com/embed/qhwHrd_6yY4" frameborder="0" allowfullscreen></iframe>
     </div><br>
     
 <p>1. เตรียมความพร้อม<br>เปิด “Docker Toolbox terminal” ขึ่นมาเราจะพบกับเจ้า MobyDock และรายละเอียดต่าง ๆ ได้แก่ ชื่อ Machine default และ IP 192.168.99.100 โดย IP ที่แสดงตอนนี้ให้เราทดเก็บไว้ในใจเป็น #1 ก่อน นะครับ (แตล่ะคนอาจได้ไม่เหมือนกัน) เพราะจะได้เอาไปใช้ในขั้นตอนหลัง</p>
